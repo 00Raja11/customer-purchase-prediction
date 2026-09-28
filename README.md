@@ -412,33 +412,8 @@ Open the URL shown in the terminal (usually `http://localhost:8501`).
 
 ---
 
-## 19. Screenshots
 
-> Add your own screenshots here after running the app.
-
-```
-docs/screenshots/
-├── 01-hero.png
-├── 02-predict-buy.png
-├── 03-predict-nobuy.png
-├── 04-batch.png
-├── 05-insights.png
-└── 06-history.png
-```
-
-Example markdown to embed:
-
-```markdown
-### Prediction — Buy
-![Buy Prediction](docs/screenshots/02-predict-buy.png)
-
-### Prediction — No Buy
-![No Buy Prediction](docs/screenshots/03-predict-nobuy.png)
-```
-
----
-
-## 20. Limitations
+## 19. Limitations
 
 - 📉 **Small dataset** (~400 rows) — results may not generalize to real production data
 - 🧩 **Only 2 features used** (`Age`, `EstimatedSalary`)
@@ -448,7 +423,7 @@ Example markdown to embed:
 
 ---
 
-## 21. Future Improvements
+## 20. Future Improvements
 
 - 🚢 Port the pipeline to the **Titanic dataset** for richer messiness (missing values, categorical features)
 - 🛠️ **Feature engineering** — age buckets, salary bands, interaction terms
@@ -462,7 +437,7 @@ Example markdown to embed:
 
 ---
 
-## 22. Author
+## 21. Author
 
 **A.R. Khan**
 Built with ❤️ using Streamlit, Scikit-learn & a touch of heritage.
